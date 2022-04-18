@@ -1,8 +1,24 @@
-html {
+body {
   background-color: #E4E9FD;
   background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
   min-height: 1000px;
   font-family: 'helvetica neue';
+}
+
+.navbar-image{
+  padding-left: 1rem;
+}
+
+.brand-name{
+  font-family: 'Pacifico', cursive;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: #8A39E1;
+  padding: 0;
+}
+
+.collapse-button{
+  width: 60px;
 }
 
 h1 {
@@ -94,3 +110,5 @@ footer {
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
+
+
