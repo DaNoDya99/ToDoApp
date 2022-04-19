@@ -105,10 +105,8 @@ input[type="text"]:focus {
   opacity: 1;
 }
 
-footer {
-  color: white;
-  color: rgba(0, 0, 0, 0.5);
+.footer{
   text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: #410f77;
 }
-
-

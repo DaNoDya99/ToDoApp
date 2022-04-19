@@ -1,0 +1,21 @@
+<%- include("header") %>
+<div>
+    <form action="/weather" method="post">
+        <label for="a">Longitude:</label>
+        <input id="a" type="text" name="longitude" value="">
+        <label for="b">Latitude:</label>
+        <input id="b" type="text" name="latitude" value="">
+        <button type="submit">Go</button>
+    </form>
+</div>
+<script>
+    navigator.geolocation.getCurrentPosition(function (position) {
+        const longitude = position.coords.longitude;
+        const latitude = position.coords.latitude;
+
+        document.getElementById("a").setAttribute("value", longitude);
+        document.getElementById("b").setAttribute("value", latitude);
+    });
+</script>
+
+<%- include("footer") %>
